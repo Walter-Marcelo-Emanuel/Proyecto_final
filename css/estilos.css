@@ -48,6 +48,7 @@ p{
 /*--pagina pasjes--*/
 
 .body_pasajes {
+  /*background-image: url("img/obelisco.jpg");*/
   font-family: "Poppins", sans-serif;
   height: 100vh;
 }
@@ -179,33 +180,27 @@ input[type=text]:placeholder {
   animation-duration: 1s;
   animation-fill-mode: both;
 }
-
-@-webkit-keyframes fadeInDown {
-  0% {
-    opacity: 0;
-    transform: translate3d(0, -100%, 0);
-  }
-  100% {
-    opacity: 1;
-    transform: none;
-  }
-}
+/* Animacion intento 5 */
 
 @keyframes fadeInDown {
   0% {
     opacity: 0;
-    -webkit-transform: translate3d(0, -100%, 0);
     transform: translate3d(0, -100%, 0);
   }
   100% {
     opacity: 1;
-    -webkit-transform: none;
     transform: none;
   }
 }
 
-/* Animacion intento 5 */
-@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@keyframes fadeIn { 
+  from {
+     opacity:0; 
+    } 
+  to { 
+    opacity:1; 
+  } 
+}
 
 .fadeIn {
   opacity:0;
@@ -227,8 +222,6 @@ input[type=text]:placeholder {
 }
 
 .fadeIn.fourth {
-  -webkit-animation-delay: 1s;
-  -moz-animation-delay: 1s;
   animation-delay: 1s;
 }
 
