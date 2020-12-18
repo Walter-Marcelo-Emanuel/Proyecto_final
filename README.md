@@ -1,6 +1,7 @@
 # Proyecto_final
 
-Appolonia Walter Marcelo Emanuel---Comision Jueves
+Appolonia Walter Marcelo Emanuel---
+                Comision16-Jueves
 
 La idea es hacer una pagina navegable con link de un sitio turistico y login.
 
